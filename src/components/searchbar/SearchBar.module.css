@@ -1,0 +1,25 @@
+.searchbar form {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.searchbar input {
+    margin-left: 10px;
+    padding: 8px;
+    outline-color: var(--main-color);
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    border-color: var(--main-color);
+}
+
+.searchbar input:hover {
+    transform: scale(1.1);
+}

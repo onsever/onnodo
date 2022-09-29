@@ -1,0 +1,102 @@
+.nav-container {
+    background-color: var(--main-color);
+    padding: 1.3rem;
+    color: #fff;
+    border-bottom: 1px solid var(--progress-aqua-color);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.navigation .main-title {
+    color: var(--text-violet-color);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+    letter-spacing: 1px;
+}
+
+.navigation .main-title:hover {
+    color: var(--progress-violet-color);
+    letter-spacing: 4px;
+    transform: rotate(3deg);
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation a:last-child {
+    color: var(--secondary-color);
+    padding: 8px;
+    border: 1px solid var(--yellow-color);
+    border-radius: 4px;
+    margin-left: 1.6rem;
+    background-color: var(--yellow-color);
+    font-weight: bolder;
+    transition: all .2s ease-in-out;
+    letter-spacing: 1px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.navigation a:last-child:hover {
+    background-color: var(--slightly-yellow-color);
+    border-color: var(--slightly-yellow-color);
+    color: #333;
+    transform: scale(1.1);
+}
+
+.navigation .side {
+    display: flex;
+    align-items: center;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add .icon {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+.light {
+    background-color: var(--text-dark-gray-color);
+}
+
+.light {
+    border-bottom: 1px solid #fff;
+}
+
+.light .main-title {
+    color: #fff;
+}
+
+.light input {
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+
+.light a:last-child {
+    background-color: var(--text-dark-gray-color);
+    color: #fff;
+    border-color: #fff;
+}
+
+.light a:last-child:hover {
+    color: var(--main-color);
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.light .main-title:hover {
+    color: var(--text-gray-color);
+}

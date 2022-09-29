@@ -1,0 +1,169 @@
+.form {
+    max-width: 620px;
+    margin: 1rem auto;
+    color: var(--main-color);
+    background-color: var(--text-gray-color);
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+    letter-spacing: 1px;
+}
+
+.form label {
+    display: block;
+}
+
+.form .content-label {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.form .content-label input {
+    padding: 10px;
+    outline-color: var(--text-gray-color);
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.form .content-label input:hover {
+    transform: scale(1.03);
+}
+
+.form .content-label input:focus,
+.form .content-label textarea:focus {
+    outline-color: var(--main-secondary-color);
+}
+
+.form .content-label textarea {
+    height: 100px;
+    padding: 8px;
+    transition: all .2s ease-in-out;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+}
+
+.form .content-label textarea:hover {
+    transform: scale(1.03);
+}
+
+.form .content-label span {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form h2 {
+    text-align: center;
+    color: var(--text-violet-color);
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.icon {
+    display: block;
+    margin: 1rem auto;
+    height: 35px;
+    width: 35px;
+    color: var(--main-color);
+    transition: all .2s ease-in-out;
+}
+
+.icon:hover {
+    color: var(--progress-violet-color);
+    transform: scale(1.2);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--text-dark-gray-color);
+    margin: 10px auto;
+    width: 50%;
+}
+
+.holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 1rem;
+}
+
+.holder span {
+    font-weight: 500;
+}
+
+.flag-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag-container label::after,
+.flag-container label::before {
+    content: "";
+    margin-left: 7px;
+}
+
+.flag-container label {
+    transition: all .2s ease-in-out;
+}
+
+.flag-container label:hover {
+    transform: scale(1.1);
+}
+
+.btn-container {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    margin-right: 1rem;
+    cursor: pointer;
+    background-color: var(--yellow-color);
+    border: 0;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    font-weight: bolder;
+    width: 30%;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: all .2s ease-in-out;
+    color: var(--secondary-color);
+}
+
+.btn:hover {
+    background-color: var(--slightly-yellow-color);
+    border-color: var(--slightly-yellow-color);
+    color: #333;
+    transform: scale(1.1);
+}
+
+.light {
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px var(--main-secondary-color);
+}
+
+.light h2 {
+    color: var(--main-color);
+}
+
+.light input {
+    border: 1px solid var(--main-color);
+}
+
+.light .btn {
+    background-color: #fff;
+    color: var(--text-dark-gray-color);
+    border: 1px solid var(--text-dark-gray-color);
+}
+
+.light .btn:hover {
+    color: #fff;
+    background-color: var(--text-dark-gray-color);
+}
+
+.light .icon:hover {
+    color: var(--text-dark-gray-color);
+}

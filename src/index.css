@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,18 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --main-color: rgba(34, 44, 65, 1);
+  --main-secondary-color: rgba(46, 56, 78, 100);
+  --secondary-color: rgba(51, 63, 84, 1);
+  --yellow-color: rgba(255, 192, 73, 1);
+  --slightly-yellow-color: rgb(253, 204, 124);
+  --text-violet-color: rgba(105, 106, 222, 1);
+  --text-gray-color: rgba(135, 151, 168, 1);
+  --text-dark-gray-color: rgba(75, 84, 105, 1);
+  --progress-aqua-color: rgba(32, 198, 178, 1);
+  --progress-violet-color: rgba(179, 178, 255, 1);
+  --progress-trail-color: rgba(77, 76, 89, 1);
 }
